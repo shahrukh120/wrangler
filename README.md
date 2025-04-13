@@ -1,3 +1,41 @@
+# changes made
+
+This assignment adds two new custom parsers to CDAP Wrangler: Byte Size and Time Duration. These help in converting human-readable strings into standardized numeric formats for further transformations or aggregations.
+
+📦 Byte Size Parser
+Purpose:
+Parses strings representing sizes (like "10KB", "1.5 MB", "2048 B") into their byte-equivalent long values.
+
+Supported Units:
+
+B (Bytes)
+
+KB (Kilobytes)
+
+MB (Megabytes)
+
+GB (Gigabytes)
+
+TB (Terabytes)
+
+Time Duration Parser
+Purpose:
+Parses strings like "10s", "5 minutes", "2h 30m" into standardized milliseconds.
+
+Supported Units:
+
+ms (milliseconds)
+
+s (seconds)
+
+m (minutes)
+
+h (hours)
+
+d (days)
+
+These parsers can be used individually or in combination with the AggregateSizeDuration directive to calculate totals or averages in specified units.
+
 # Data Prep
 
 ![cm-available](https://cdap-users.herokuapp.com/assets/cm-available.svg)
