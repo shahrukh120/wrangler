@@ -1,0 +1,15 @@
+# AI Tooling Prompts Used (ChatGPT - April 2025)
+
+1. Help me understand how to add support for Byte Size and Time Duration parsers in CDAP Wrangler.
+2. How do I modify the grammar in Directives.g4 to add new parsers?
+3. Help me implement a ByteSize parser that converts values like "10KB" or "2MB" to bytes.
+4. Help me implement a TimeDuration parser that supports inputs like "5m", "2h 30m", and "3 days".
+5. How do I write unit tests for these custom parsers in wrangler-core?
+6. Guide me through creating a new directive AggregateSizeDuration that computes total/average byte size and time.
+7. What should the structure of the AggregateSizeDurationTest class look like?
+8. Help me debug a Maven build issue where my directive tests aren't being recognized.
+9. How can I run a single test class using Maven?
+
+
+Tool Used: ChatGPT (OpenAI)  
+Purpose: Guidance, debugging, code examples, and documentation support
